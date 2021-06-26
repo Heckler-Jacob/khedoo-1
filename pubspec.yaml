@@ -1,0 +1,40 @@
+name: khedoo
+description: A dating app for Africans around the world.
+
+  
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_native_splash: ^1.2.0
+  font_awesome_flutter: ^9.1.0
+  google_fonts: ^2.1.0
+  swipe_cards: ^0.1.0
+
+flutter_native_splash:
+  color: "#D83A56"
+  image: images/splash_screen_image.png
+  android: true
+  ios: true
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # Assets
+  assets:
+    - images/
+
